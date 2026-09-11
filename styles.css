@@ -94,6 +94,8 @@
   .badge{display:flex;align-items:center;gap:.55rem;padding:.6rem 1.05rem;border:1px solid rgba(250,247,240,.22);border-radius:999px;font-size:.8rem;color:var(--color-ivory);background:rgba(255,255,255,.04);}
   .badge svg{color:var(--color-gold-hover);flex:none;}
   .badge b{font-weight:700;}
+  .badge-link{transition:transform .3s ease, border-color .3s ease, background .3s ease;}
+  .badge-link:hover{transform:translateY(-2px);border-color:rgba(250,247,240,.4);background:rgba(255,255,255,.08);color:var(--color-ivory);}
 
   .tooth-watermark{position:absolute;color:rgba(255,255,255,.05);pointer-events:none;}
 
@@ -127,6 +129,14 @@
   @media (max-width:600px){.service-image{height:220px;}}
   .spec-card h3{font-size:1.08rem;margin:0 0 .6rem;font-weight:700;color:var(--color-graphite);}
   .spec-card p{margin:0;font-size:.9rem;line-height:1.65;color:var(--color-text-soft);}
+
+  /* ---- instalaciones ---- */
+  .facility-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.75rem;}
+  @media (max-width:760px){.facility-grid{grid-template-columns:1fr;}}
+  .facility-card{margin:0;overflow:hidden;border-radius:14px;border:1px solid rgba(33,29,24,.08);background:var(--color-white);box-shadow:0 20px 40px -30px rgba(33,29,24,.35);}
+  .facility-card img{width:100%;height:320px;object-fit:cover;display:block;}
+  .facility-card figcaption{padding:1.1rem 1.4rem;font-size:.88rem;font-weight:700;color:var(--color-graphite);}
+  @media (max-width:640px){.facility-card img{height:240px;}}
 
   /* ---- antes y despues ---- */
   .ba-note{font-size:.85rem;color:var(--color-label);margin:-1.6rem 0 2.4rem;max-width:640px;line-height:1.6;}
