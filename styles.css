@@ -131,13 +131,12 @@
   .spec-card p{margin:0;font-size:.9rem;line-height:1.65;color:var(--color-text-soft);}
 
   /* ---- instalaciones ---- */
-  .facility-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.75rem;align-items:start;}
+  .facility-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.75rem;}
   @media (max-width:760px){.facility-grid{grid-template-columns:1fr;}}
   .facility-card{margin:0;overflow:hidden;border-radius:14px;border:1px solid rgba(33,29,24,.08);background:var(--color-white);box-shadow:0 20px 40px -30px rgba(33,29,24,.35);}
   .facility-card img{width:100%;height:320px;object-fit:cover;display:block;}
   .facility-card figcaption{padding:1.1rem 1.4rem;font-size:.88rem;font-weight:700;color:var(--color-graphite);}
-  .facility-card--framed img{height:auto;object-fit:cover;}
-  @media (max-width:640px){.facility-card img{height:240px;}.facility-card--framed img{height:auto;}}
+  @media (max-width:640px){.facility-card img{height:240px;}}
 
   /* ---- antes y despues ---- */
   .ba-note{font-size:.85rem;color:var(--color-label);margin:-1.6rem 0 2.4rem;max-width:640px;line-height:1.6;}
