@@ -1,0 +1,8 @@
+# Vercel project metadata is machine- and account-specific.
+.vercel/
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db
+
+.vercel
